@@ -56,6 +56,7 @@ describe("Login Page Testing", () => {
 
   it("Should allow typing password", () => {
 
+    
     render(
       <Provider store={store}>
         <BrowserRouter>
