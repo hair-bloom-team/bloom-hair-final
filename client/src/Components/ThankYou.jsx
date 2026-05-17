@@ -5,7 +5,6 @@ import bgImage from "../assets/str.jpg";
 
 const ThankYou = () => {
   const navigate = useNavigate();
-
   return (
     <Container
       fluid
