@@ -2,7 +2,7 @@ import { Container, Row, Col, Card, CardBody, Button } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../App.css";
-import bgImage from "../assets/str.jpg"; // ✨ أضفنا هذا فقط
+import bgImage from "../assets/str.jpg"; 
 
 const Delivery = () => {
   const navigate = useNavigate();
