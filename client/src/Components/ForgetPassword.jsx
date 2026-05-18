@@ -3,8 +3,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import "../App.css";
-import bgImage from "../assets/str.jpg"; // ✨ أضفنا هذا فقط
-
+import bgImage from "../assets/str.jpg"; 
 const ForgetPassword = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
@@ -24,7 +23,7 @@ const ForgetPassword = () => {
     <Container
       fluid
       className="forget-page"
-      style={{                       // ✨ هذا اللي أضفناه فقط
+      style={{                       
         backgroundImage: `url(${bgImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
